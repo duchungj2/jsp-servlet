@@ -8,7 +8,7 @@ public class AbstractModel {
 	
 	private String createdBy;
 	
-	private String modifiesBy;
+	private String modifiedBy;
 	
 	private Timestamp createdDate;
 	
@@ -31,11 +31,11 @@ public class AbstractModel {
 	}
 
 	public String getModifiesBy() {
-		return modifiesBy;
+		return modifiedBy;
 	}
 
-	public void setModifiesBy(String modifiesBy) {
-		this.modifiesBy = modifiesBy;
+	public void setModifiesBy(String modifiedBy) {
+		this.modifiedBy = modifiedBy;
 	}
 
 	public Timestamp getCreatedDate() {
@@ -52,5 +52,9 @@ public class AbstractModel {
 
 	public void setModifiedDate(Timestamp modifiedDate) {
 		this.modifiedDate = modifiedDate;
+	}
+	
+	public String toString() {
+	    return "id: " + id + ", createdBy: " + createdBy + ", createdDate: " + createdDate + ", modifiedBy: " + modifiedBy + ", modifiedDate: " + modifiedDate;
 	}
 }

@@ -52,4 +52,8 @@ public class NewModel extends AbstractModel{
 		this.categoryId = categoryId;
 	}
 	
+	public String toString() {
+	    return super.toString() + ", title: " + title + ", thumbnail: " + thumbnail + ", shortDescription: " + shortDescription + ", content: " + content + ", categoryId: " + categoryId;
+	}
+	
 }

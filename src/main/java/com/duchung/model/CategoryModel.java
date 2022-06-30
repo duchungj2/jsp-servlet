@@ -21,4 +21,8 @@ public class CategoryModel extends AbstractModel{
 	public void setCode(String code) {
 		this.code = code;
 	}
+	
+	public String toString() {
+	    return super.toString() + ", name: " + name + ", code: " + code;
+	  }
 }
