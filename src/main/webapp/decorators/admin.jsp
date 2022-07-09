@@ -15,8 +15,16 @@
 <link rel="stylesheet"
 	href="<c:url value='/template/admin/assets/css/ace.min.css'/>"
 	class="ace-main-stylesheet" id="main-ace-style" />
+<link href="<c:url value='/template/admin/css/ace-skins.min.css'/>"
+	rel="stylesheet">
+<link href="<c:url value='/template/admin/css/ace-rtl.min.css'/>"
+	rel="stylesheet">
 <script
 	src="<c:url value='/template/admin/assets/js/ace-extra.min.js'/>"></script>
+<script
+		src="<c:url value='/template/admin/assets/js/jquery.2.1.1.min.js'/>"></script>
+<script
+	src="<c:url value='/template/pagination/jquery.twbsPagination.js'/>"></script>
 </head>
 <body class="no-skin">
 
@@ -51,10 +59,7 @@
 
 
 	<script
-		src="<c:url value='/template/admin/assets/js/jquery.2.1.1.min.js'/>"></script>
-	<script
 		src="<c:url value='/template/admin/assets/js/bootstrap.min.js'/>"></script>
-
 	<script
 		src="<c:url value='/template/admin/assets/js/jquery-ui.custom.min.js'/>"></script>
 	<script

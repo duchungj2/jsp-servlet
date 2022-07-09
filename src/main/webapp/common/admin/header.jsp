@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <div id="navbar" class="navbar navbar-default">
 	<script type="text/javascript">
 		try {
@@ -16,8 +18,7 @@
 
 		<div class="navbar-header pull-left">
 			<a href="index.html" class="navbar-brand"> <small> <i
-					class="fa fa-leaf"></i> Ace Admin
-			</small>
+					class="fa fa-leaf"></i> Trang quản trị</small>
 			</a>
 		</div>
 

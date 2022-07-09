@@ -7,4 +7,8 @@ import com.duchung.model.NewModel;
 public interface INewService {
 
 	List<NewModel> findByCategoryId(long categoryId);
+	
+	NewModel save(NewModel newModel);
+	
+	List<NewModel> findAll();
 }

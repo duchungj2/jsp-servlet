@@ -1,8 +1,10 @@
 package com.duchung.model;
 
 import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.List;
 
-public class AbstractModel {
+public class AbstractModel<T> {
 	
 	private long id;
 	
@@ -13,7 +15,35 @@ public class AbstractModel {
 	private Timestamp createdDate;
 	
 	private Timestamp modifiedDate;
+
+	private List<Integer> ids = new ArrayList<>();
 	
+	public List<Integer> getIds() {
+		return ids;
+	}
+
+	public void setIds(List<Integer> ids) {
+		this.ids = ids;
+	}
+
+	private List<T> listResult = new ArrayList<>();
+	
+	public String getModifiedBy() {
+		return modifiedBy;
+	}
+
+	public void setModifiedBy(String modifiedBy) {
+		this.modifiedBy = modifiedBy;
+	}
+
+	public List<T> getListResult() {
+		return listResult;
+	}
+
+	public void setListResult(List<T> listResult) {
+		this.listResult = listResult;
+	}
+
 	public long getId() {
 		return id;
 	}

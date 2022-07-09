@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@include file="/common/taglib.jsp" %> 
 <!DOCTYPE html>
 <html>
 <head>
@@ -135,10 +136,7 @@
 
 							<i class="ace-icon fa fa-check green"></i> Welcome to <strong
 								class="green"> Ace <small>(v1.3.3)</small>
-							</strong>, легкий, много-функциональный и простой в использовании шаблон
-							для админки на bootstrap 3.3. Загрузить исходники с <a
-								href="https://github.com/bopoda/ace">github</a> (with minified
-							ace js files).
+							</strong>, Trịnh Đức Hùng
 						</div>
 
 						<div class="row">
