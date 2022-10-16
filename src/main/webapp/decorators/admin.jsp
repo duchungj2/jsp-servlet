@@ -15,9 +15,9 @@
 <link rel="stylesheet"
 	href="<c:url value='/template/admin/assets/css/ace.min.css'/>"
 	class="ace-main-stylesheet" id="main-ace-style" />
-<link href="<c:url value='/template/admin/css/ace-skins.min.css'/>"
+<link href="<c:url value='/template/admin/assets/css/ace-skins.min.css'/>"
 	rel="stylesheet">
-<link href="<c:url value='/template/admin/css/ace-rtl.min.css'/>"
+<link href="<c:url value='/template/admin/assets/css/ace-rtl.min.css'/>"
 	rel="stylesheet">
 <script
 	src="<c:url value='/template/admin/assets/js/ace-extra.min.js'/>"></script>
