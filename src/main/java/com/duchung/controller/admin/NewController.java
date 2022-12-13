@@ -1,8 +1,6 @@
 package com.duchung.controller.admin;
 
 import java.io.IOException;
-import java.util.List;
-
 import javax.inject.Inject;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
