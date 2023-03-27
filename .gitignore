@@ -1,4 +1,7 @@
-target/
 src/main/resources/.env
-.settings/
-.metadata/
+.idea
+*.iml
+target
+.settings
+*.classpath
+*.project
