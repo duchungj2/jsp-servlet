@@ -11,4 +11,8 @@ public interface INewService {
 	NewModel save(NewModel newModel);
 	
 	List<NewModel> findAll();
+	
+	List<NewModel> findAll(int limit, int offset);
+	
+	int getTotalItem();
 }
