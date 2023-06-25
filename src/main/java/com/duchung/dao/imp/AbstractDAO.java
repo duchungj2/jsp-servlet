@@ -27,9 +27,10 @@ public class AbstractDAO<T> implements GenericDAO<T> {
 	        dotenv = Dotenv.load();
 			Class.forName(dotenv.get("DATABASE_DRIVER"));
 			String url = dotenv.get("DATABASE_URL");
+			String dbName = dotenv.get("DATABASE_NAME");
 			String user = dotenv.get("USER_NAME");
 			String password = dotenv.get("PASSWORD");
-			return DriverManager.getConnection(url, user, password);
+			return DriverManager.getConnection(url + dbName, user, password);
 		} catch (ClassNotFoundException | SQLException e) {
 			logger.error("Database connection error: {}", e.getMessage());
 			return null;
