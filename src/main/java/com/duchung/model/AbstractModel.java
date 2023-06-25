@@ -18,11 +18,13 @@ public class AbstractModel<T> {
 
 	private List<Integer> ids = new ArrayList<>();
 	
-	private int page;
+	private int page = 1;
 	
-	private int maxPageItem;
+	private int maxPageItem = 5;
 	
 	private int totalPage;
+	
+	private int totalItem;
 	
 	private List<T> listResult = new ArrayList<>();
 	
@@ -114,6 +116,14 @@ public class AbstractModel<T> {
 		this.modifiedDate = modifiedDate;
 	}
 	
+	public int getTotalItem() {
+		return totalItem;
+	}
+
+	public void setTotalItem(int totalItem) {
+		this.totalItem = totalItem;
+	}
+
 	public String toString() {
 	    return "id: " + id + ", createdBy: " + createdBy + ", createdDate: " + createdDate + ", modifiedBy: " + modifiedBy + ", modifiedDate: " + modifiedDate;
 	}

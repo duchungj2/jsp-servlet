@@ -11,4 +11,8 @@ public interface INewDAO extends GenericDAO<NewModel>{
 	Long save(NewModel newModel);
 	
 	List<NewModel> findAll();
+	
+	List<NewModel> findAll(int limit, int offset);
+	
+	int getTotalItem();
 }

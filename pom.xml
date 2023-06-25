@@ -56,15 +56,20 @@
 			<artifactId>log4j-core</artifactId>
 			<version>2.17.2</version>
 		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/io.github.cdimascio/java-dotenv -->
+		
 		<!-- https://mvnrepository.com/artifact/io.github.cdimascio/java-dotenv -->
 		<dependency>
 			<groupId>io.github.cdimascio</groupId>
 			<artifactId>java-dotenv</artifactId>
 			<version>5.2.2</version>
 		</dependency>
-
+		
+		<!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+		<dependency>
+		    <groupId>commons-beanutils</groupId>
+		    <artifactId>commons-beanutils</artifactId>
+		    <version>1.9.4</version>
+		</dependency>
 
 	</dependencies>
 
